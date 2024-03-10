@@ -1,0 +1,175 @@
+/*--------- Breadcrumbs ------- */
+
+.breadcrumbs {
+    padding: 15px 0;
+    background: #ffffff;
+    min-height: 20px;
+}
+  
+  
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    font-size: 20px;
+}
+  
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+  
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #3c3c3c;
+    content: "/";
+}
+
+.register {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.register-container {
+    color: #1e1e1e;
+    width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.register-container h1 {
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+.register-container button {
+    background-color: #007bff; 
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.register-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.register-row label {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.register-row input {
+    flex: 2;
+    padding: 10px;
+    width: calc(50% - 15px); 
+    margin-bottom: 10px; 
+    color: #1e1e1e;
+    background-color: #f0f8ff;
+    border: 1px solid #1e1e1e;
+    border-radius: 4px;
+    outline: none;
+}
+
+.register-container p {
+    text-align: center;
+    margin-bottom: 20px; 
+}
+
+.register-container a.create-user-link { 
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+.register-container a.create-user-link:hover {
+    text-decoration: underline;
+}
+
+
+.password-strength {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Add styles for password strength colors */
+.password-strength.weak { color: #ff3333; }
+.password-strength.medium { color: #ffa500; }
+.password-strength.strong { color: #008000; }
+
+.info-button {
+    margin-top: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.info-button:hover .password-rules {
+    display: block;
+}
+
+.password-rules {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-0%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: left;
+    z-index: 1;
+    width: 250px;
+}
+
+.password-rules p {
+    margin-bottom: 5px;
+}
+
+.password-rules ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.password-rules li {
+    margin-bottom: 3px;
+}
+
+.register-row select {
+    flex: 2;
+    padding: 10px;
+    width: calc(50% - 15px);
+    margin-bottom: 10px;
+    color: #1e1e1e;
+    background-color: #f0f8ff;
+    border: 1px solid #1e1e1e;
+    border-radius: 4px;
+    outline: none;
+}
+
+.register-row select::-ms-expand {
+    display: none;
+}
+
+.register-row select:hover,
+.register-row select:focus {
+    border-color: #007bff;
+}

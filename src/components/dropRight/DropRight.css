@@ -1,0 +1,28 @@
+.dropright-sub-main {
+    min-width: 135px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.dropright-sub-button {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    border: none;
+    background-color: #fff; 
+    cursor: pointer;
+    text-align: center;
+
+    width: 100%;
+    border-bottom: 1px solid rgb(218, 219, 219);
+}
+  
+
+.dropright-sub-button:hover {
+    background-color: #f1f1f1;
+    text-decoration: underline;
+    color: rgb(108, 179, 182);
+    font-weight: bold;
+}

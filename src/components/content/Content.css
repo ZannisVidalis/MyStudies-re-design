@@ -1,0 +1,176 @@
+.content{
+    background-color: rgb(186, 214, 216);
+    display: flex;
+    flex-direction: column;
+}
+
+.content-row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+
+.title a {
+    color: #222222;
+    text-decoration: none;
+}
+
+/* TOP ROW OF CONTENT */
+
+    /* GRADES*/
+.content-stud-grades > .icon{
+    color: #5688e6;
+    font-size: 42px;
+}
+
+.content-stud-grades > .title{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.content-stud-grades > .description{
+    line-height: 24px;
+    color: grey;
+    font-size: 14px;
+    overflow-wrap: break-word;
+    max-width: 300px;
+}
+
+.content-stud-grades:hover .title a {
+    color: #5688e6;
+    text-decoration: underline;
+}
+    /* ===== */
+
+    /* DECLARATIONS */
+.content-stud-dec > .icon{
+    color: #5688e6;
+    font-size: 42px;
+}
+
+.content-stud-dec > .title{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.content-stud-dec > .description{
+    line-height: 24px;
+    color: grey;
+    font-size: 14px;
+    overflow-wrap: break-word;
+    max-width: 300px;
+}
+
+.content-stud-dec:hover .title a {
+    color: #5688e6;
+    text-decoration: underline;
+}
+    /* ===== */
+
+    /* CERTIFICATES */
+.content-stud-cert > .icon{
+    color: #5688e6;
+    font-size: 42px;
+}
+
+.content-stud-cert > .title{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.content-stud-cert > .description{
+    line-height: 24px;
+    color: grey;
+    font-size: 14px;
+    overflow-wrap: break-word;
+    max-width: 300px;
+}
+
+.content-stud-cert:hover .title a {
+    color: #5688e6;
+    text-decoration: underline;
+}
+    /* ===== */
+
+/* END OF TOP ROW */
+
+
+/* BOTTOM ROW OF CONTENT */
+
+    /* CLASSES*/
+    .content-prof-classes > .icon{
+        color: #5688e6;
+        font-size: 42px;
+    }
+    
+    .content-prof-classes > .title{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .content-prof-classes > .description{
+        line-height: 24px;
+        color: grey;
+        font-size: 14px;
+        overflow-wrap: break-word;
+        max-width: 300px;
+    }
+    
+    .content-prof-classes:hover .title a {
+        color: #5688e6;
+        text-decoration: underline;
+    }
+        /* ===== */
+    
+        /* RATING */
+    .content-prof-rating > .icon{
+        color: #5688e6;
+        font-size: 42px;
+    }
+    
+    .content-prof-rating > .title{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .content-prof-rating > .description{
+        line-height: 24px;
+        color: grey;
+        font-size: 14px;
+        overflow-wrap: break-word;
+        max-width: 300px;
+    }
+    
+    .content-prof-rating:hover .title a {
+        color: #5688e6;
+        text-decoration: underline;
+    }
+        /* ===== */
+    
+        /* HISTORY */
+    .content-prof-history > .icon{
+        color: #5688e6;
+        font-size: 42px;
+    }
+    
+    .content-prof-history > .title{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    
+    .content-prof-history > .description{
+        line-height: 24px;
+        color: grey;
+        font-size: 14px;
+        overflow-wrap: break-word;
+        max-width: 300px;
+    }
+    
+    .content-prof-history:hover .title a {
+        color: #5688e6;
+        text-decoration: underline;
+    }
+        /* ===== */
+    
+    /* END OF TOP ROW */

@@ -1,0 +1,104 @@
+.syllabus-container {
+    text-align: center;
+}
+
+.syllabus-container h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.syllabus-table {
+    margin: 0 auto;
+    width: 90%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.syllabus-table thead th {
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.syllabus-container th, .syllabus-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+}
+  
+.syllabus-container th {
+    background-color: #f2f2f2;
+}
+
+.syllabus-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+  
+
+.syllabus-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.syllabus-container tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+
+
+/* Pagination CSS */
+
+.syllabus-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.syllabus-pagination button {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid #4caf50;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.syllabus-pagination button:hover {
+    background-color: #45a049;
+}
+
+.syllabus-pagination span {
+    padding: 8px 16px;
+    color: #4caf50;
+}
+
+
+.login-button-syllabus {
+    margin-top: 10px;
+    background-color: blue;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-left: 500px;
+}
+  
+.cancel-button-syllabus {
+    margin-top: 10px;
+    background-color: rgb(196, 23, 23);
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-right: auto; 
+}

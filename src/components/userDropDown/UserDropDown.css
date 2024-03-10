@@ -1,0 +1,69 @@
+.user-dropdown-main {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    gap: 5px;
+    margin-right: 110px;
+}
+
+.user-dropdown-sub-main {
+    min-width: 80px; /*Set a minimum width for the submenu*/
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+}
+
+.user-dropdown-sub-main::before {
+    font-family: 'Ubuntu', sans-serif;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px; /* Adjust the thickness of the line */
+    background-color: rgb(143, 215, 218);
+  }
+
+.user-dropdown-sub-button {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    border: none;
+    background-color: #fff; 
+    cursor: pointer;
+    text-align: center;
+
+    width: 100%;
+    border-bottom: 1px solid rgb(218, 219, 219);
+}
+  
+
+.user-dropdown-sub-button:hover {
+    background-color: #f1f1f1;
+    text-decoration: underline;
+    color: rgb(108, 179, 182);
+    font-weight: bold;
+}
+
+.user-dropdown-sub-button-log{
+    padding: 10px;
+    border: none;
+    background-color: #bd7575; 
+    cursor: pointer;
+    text-align: center;
+
+    width: 100%;
+    border-bottom: 1px solid rgb(218, 219, 219);
+}
+
+.user-dropdown-sub-button-log:hover {
+    background-color: #bd7575;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}

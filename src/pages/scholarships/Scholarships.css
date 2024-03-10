@@ -1,0 +1,28 @@
+.scholarships-news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  
+  .scholarships-news {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .scholarships-news-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  

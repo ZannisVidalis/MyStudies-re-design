@@ -1,0 +1,69 @@
+/*--------- Breadcrumbs ------- */
+.breadcrumbs {
+    padding: 15px 0;
+    background: #ffffff;
+    min-height: 20px;
+}
+
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    font-size: 20px;
+}
+
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #3c3c3c;
+    content: "/";
+}
+
+
+/*--------- MAIN ------- */
+
+.classes-table-title{
+    background-color: rgb(143, 215, 218);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.classes-table-title > span{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.classes-table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+  
+.classes-table-container th, .classes-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.classes-table-container th {
+    background-color: #f2f2f2;
+}
+  
+.classes-table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.classes-table-container tbody tr:hover {
+    background-color: #e0e0e0;
+}

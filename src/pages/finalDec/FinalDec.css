@@ -1,0 +1,94 @@
+.final-dec{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background-color: rgb(207, 214, 215);
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.final-dec-row > h2, span{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.final-dec-row > h2 {
+    margin-bottom: 15px;
+    color: green;
+}
+
+.final-dec-row{
+    margin-bottom: 50px;
+}
+
+.final-dec-btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.final-dec-exit{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.final-dec-edit{
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(222, 191, 35);
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.final-dec-final{
+    border: none;
+    padding: 10px;
+    background-color:  rgb(50, 188, 50);
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.finaldeclaration-table-title{
+    background-color: rgb(143, 215, 218);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.finaldeclaration-table-title > span{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.finaldeclaration-table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: white;
+}
+  
+.finaldeclaration-table-container th, .finaldeclaration-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; 
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.finaldeclaration-table-container th {
+    background-color: #f2f2f2;
+}
+
+.finaldeclaration-table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.finaldeclaration-table-container tbody tr:hover {
+    background-color: #e0e0e0;
+}

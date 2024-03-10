@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(186, 214, 216);
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.card-img > img {
+    height: 90px;
+    width: 80px;
+}
+
+.card-details {
+    flex: 1;
+    margin-left: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card-name {
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+
+.card-name h3 {
+    margin: 0;
+}
+
+
+.card-positions {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+}
+
+.card-info {
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.card-info span {
+    margin-right: 15px;
+}
+
+.card-info a {
+    margin-right: 15px;
+}

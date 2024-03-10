@@ -1,0 +1,208 @@
+.cert-span{
+    background-color: rgb(203, 201, 201);
+    padding: 20px;
+    border-radius: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.fab-cont > button {
+    background-color: rgb(143, 215, 218);
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+} 
+
+.fab-cont > button:hover{
+    background-color: #c3c3c3;
+}
+.cert-row-container{
+    margin-top: 5px;
+    width: 100%;
+}
+
+.cert-row{
+    background-color: rgb(203, 201, 201);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cert-row > span{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cert-row > button{
+    margin-right: 10px;
+    border: none;
+    background-color: rgb(203, 201, 201);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+.cert-row button:hover {
+    background-color: #ff5733;
+}
+
+/* FIRST SECTION */
+.cert-choose{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.cert-choose > span{
+    font-family: 'Ubuntu', sans-serif;
+}
+/* ============== */
+
+.cert-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.cert-cont button[disabled]{
+    cursor: not-allowed;
+}
+
+.cert-cont > button{
+    width: 15%;
+    margin-top: 10px;
+    align-self: center;
+    padding: 5px;
+    border: none;
+    background-color: rgb(143, 215, 218);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.cert-cont button:hover {
+    background-color: #ff5733;
+}
+
+/* SECOND SECTION */
+.cert-choose-second{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.cert-choose-second > span{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cert-choose-second > input{
+    width: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cert-navigation{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cert-navigation > button{
+    width: 15%;
+    align-self: center;
+    padding: 5px;
+    border: none;
+    background-color: rgb(143, 215, 218);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.cert-navigation > button:first-child {
+    margin-right: 10px;
+}
+
+/* ============== */
+
+/* THIRD SECTION */
+.cert-choose-third{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.cert-choose-third > span{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cert-choose-third > span:first-child {
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+
+.cert-navigation-third{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.cert-navigation-third > button{
+    width: 15%;
+    align-self: center;
+    padding: 5px;
+    border: none;
+    background-color:  rgb(143, 215, 218);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.cert-navigation-third > button:first-child {
+    margin-right: 10px;
+}
+
+.cert-choose-third > span > span {
+    font-style: italic;
+    color: #555;
+}
+
+/* ============== */
+
+/* FOURTH SECTION */
+.cert-choose-fourth{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.cert-choose-fourth > span{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+}
+
+.cert-choose-fourth > span > span {
+    font-style: italic;
+    color: #555;
+}
+
+.cert-choose-fourth > span:first-child {
+    margin-bottom: 10px;
+}
+
+.history-link{
+    margin-left: 5px;
+}
+
+.cert-choose-fourth a.history-link{
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cert-choose-fourth a.history-link:hover{
+    text-decoration: underline;
+}
+
+/* ============== */
+

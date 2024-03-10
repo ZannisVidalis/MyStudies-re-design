@@ -1,0 +1,77 @@
+.first-tag-info {
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.first-tag-info h2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.first-tag-info p {
+    margin-bottom: 15px;
+}
+
+.first-tag-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.first-tag-info li {
+    margin-bottom: 5px;
+}
+
+.first-tag-info span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.first-tag-info-span {
+    color: red;
+}
+
+/* SECOND TAG */
+
+.second-tag-info {
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.second-tag-info h2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.second-tag-info p {
+    margin-bottom: 15px;
+}
+
+.second-tag-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.second-tag-info li {
+    margin-bottom: 5px;
+}
+
+.second-tag-info-title{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.secong-tag-info-p-span{
+    font-weight: bold;
+}
+
+
+.second-tag-info-span {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}

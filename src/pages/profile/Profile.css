@@ -1,0 +1,110 @@
+/* CSS FOR BREADCRUMBS */
+/* No need, it gets applied from the About.css file */
+
+/* CSS FOR FIRST TAG */
+.first-tag-profile{
+    margin: 20px auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.f-t-profile-row{
+    display: flex;
+    align-items: center;
+}
+
+.f-t-profile-image img{
+    width: 200px;
+}
+
+.f-t-profile-sdi{
+    margin-left: 80px;
+}
+
+.f-t-profile-sdi h1{
+    display: inline;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.f-t-profile-sdi h2{
+    margin: 0;
+}
+
+.f-t-profile-second-row{
+    display: flex;
+    margin-top: 20px;
+}
+
+.f-t-profile-categ{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.f-t-profile-categ > span{
+    padding: 5px;
+}
+
+.f-t-profile-answ{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.f-t-profile-answ > span{
+    padding: 5px;
+}
+
+/* CSS FOR SECONG TAG */
+.pro-info{
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.second-tag-profile{
+    margin: 20px auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.s-t-profile-row{
+    display: flex;
+    margin-top: 20px;
+}
+
+.s-t-profile-categ{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.s-t-profile-categ > span{
+    padding: 5px;
+}
+
+.s-t-profile-answ{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.s-t-profile-answ > span{
+    padding: 10px;
+}
+
+.s-t-profile-edit-button{
+    display: flex;
+    justify-content: center;
+}

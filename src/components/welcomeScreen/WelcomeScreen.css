@@ -1,0 +1,40 @@
+.welcome-screen{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-height: 350px;
+    overflow: hidden; 
+}
+
+.welcome-screen-carousel-container {
+    width: 100%;
+}
+
+.carousel.carousel-slider {
+    width: 100%;
+}
+
+.welcome-screen-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+  
+.welcome-screen-container h1 {
+    margin: 0;
+    font-size: 30px;
+    color: black;
+}
+  
+.welcome-screen-container span {
+    display: block;
+    font-size: 20px;
+    margin-top: 8px;
+    color: black;
+}
+  

@@ -1,0 +1,175 @@
+/*--------- MAIN ------- */
+
+.container-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; 
+}
+  
+.content-box {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+    margin-top: 10px;
+    background-color: blue;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-left: 450px; 
+}
+  
+.cancel-button {
+    margin-top: 10px;
+    background-color: rgb(196, 23, 23);
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-right: auto; 
+}
+
+
+.certbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ratings-info{
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.ratings-progress{ 
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.ratings-table-title{
+    background-color: rgb(143, 215, 218);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.ratings-table-title > span{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ratings-table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+  
+.ratings-table-container th, .ratings-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.ratings-table-container th {
+    background-color: #f2f2f2;
+}
+  
+
+.ratings-table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.ratings-table-container tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* --------------------------------------------- */
+label[for="classSelect"] {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+#classSelect {
+    width: 30%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+  
+#classSelect option {
+    font-size: 14px;
+}
+
+/* ----------------------------------- */
+.ratetemp-container-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; 
+}
+  
+.ratetemp-content-box {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ratetemp-button {
+    margin-top: 10px;
+    background-color: blue;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-left: 450px; 
+}
+  
+.ratetemp-cancel-button {
+    margin-top: 10px;
+    background-color: rgb(196, 23, 23);
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-right: auto; 
+}

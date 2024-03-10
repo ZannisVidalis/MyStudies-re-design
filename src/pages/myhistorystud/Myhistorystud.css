@@ -1,0 +1,54 @@
+.second-tag-myhistory-table-title{
+    background-color: rgb(143, 215, 218);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-tag-myhistory-table-title > span{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.myhistory-table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+  
+.myhistory-table-container th, .myhistory-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.myhistory-table-container th {
+    background-color: #f2f2f2;
+}
+  
+
+.certificates-table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.certificates-table-container tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.first-tag-myhistory-table-title{
+    background-color: rgb(143, 215, 218);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.first-tag-myhistory-table-title > span{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}

@@ -1,0 +1,30 @@
+.home-news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.home-news {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Set 4 columns for the first row */
+    gap: 10px;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.home-news-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+}
+
+.home-news-title a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.home-news-title:hover a {
+    color: #5688e6;
+    text-decoration: underline;
+}

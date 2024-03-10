@@ -1,0 +1,46 @@
+/*--------- Breadcrumbs ------- */
+.breadcrumbs {
+    padding: 15px 0;
+    background: #ffffff;
+    min-height: 20px;
+}
+
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    font-size: 20px;
+}
+
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #3c3c3c;
+    content: "/";
+}
+
+/*--------- MAIN ------- */
+
+.chart-container{
+    display: flex;
+    background-color: red;
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+  
+.bar {
+    width: 45%;
+    margin-right: 10px;
+}
+  

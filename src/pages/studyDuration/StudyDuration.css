@@ -1,0 +1,58 @@
+.study-duration-title {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.study-duration-table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+    margin-bottom: 30px;
+}
+  
+.study-duration-table-container th, .study-duration-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+  
+.study-duration-table-container th {
+    background-color: #f2f2f2;
+}
+  
+
+.study-duration-table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.study-duration-table-container tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+
+.study-duration-frame {
+    background-color: #ffdddd;
+    border-radius: 20px;
+    width: 46%;
+    padding: 5px;
+    margin-top: 10px; 
+    margin-bottom: 40px;
+    
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+}
+  
+.study-duration-frame > span {
+    display: block; 
+    margin-bottom: 15px; 
+    line-height: 1.5;
+}
+
+.study-duration-1{
+    display: block; 
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 5px;
+}

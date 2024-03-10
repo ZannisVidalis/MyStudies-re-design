@@ -1,0 +1,94 @@
+.final-rate{
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background-color: rgb(207, 214, 215);
+    border-radius: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.final-rate-row > h2, span{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.final-rate-row > h2 {
+    margin-bottom: 15px;
+    color: green;
+}
+
+.final-rate-row{
+    margin-bottom: 50px;
+}
+
+.final-rate-btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.final-rate-exit{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.final-rate-edit{
+    border: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(222, 191, 35);
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.final-rate-final{
+    border: none;
+    padding: 10px;
+    background-color:  rgb(50, 188, 50);
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.finalrating-table-title{
+    background-color: rgb(143, 215, 218);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.finalrating-table-title > span{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.finalrating-table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: white;
+}
+  
+.finalrating-table-container th, .finalrating-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; 
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.finalrating-table-container th {
+    background-color: #f2f2f2;
+}
+
+.finalrating-table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.finalrating-table-container tbody tr:hover {
+    background-color: #e0e0e0;
+}

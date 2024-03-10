@@ -1,0 +1,70 @@
+.advisers-title {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.advisers-info {
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.advisers-info p {
+    margin-bottom: 15px;
+}
+
+.advisers-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.advisers-info li {
+    margin-bottom: 5px;
+}
+
+.advisers-asterisk {
+    color: red;
+    font-weight: bold;
+}
+
+.avdisers-table-title{
+    background-color: rgb(143, 215, 218);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.avdisers-table-title > span{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.advisers-table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+  
+.advisers-table-container th, .advisers-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.advisers-table-container th {
+    background-color: #f2f2f2;
+}
+  
+
+.advisers-table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.advisers-table-container tbody tr:hover {
+    background-color: #e0e0e0;
+}

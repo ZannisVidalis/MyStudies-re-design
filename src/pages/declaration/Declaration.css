@@ -1,0 +1,248 @@
+/*--------- Breadcrumbs ------- */
+.breadcrumbs {
+    padding: 15px 0;
+    background: #ffffff;
+    min-height: 20px;
+}
+
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    font-size: 20px;
+}
+
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #3c3c3c;
+    content: "/";
+}
+
+/*--------- MAIN ------- */
+
+.container-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; 
+}
+
+.dec-progress{
+    width: 95%;
+    margin: 0 auto;
+}
+  
+.content-box {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+    margin-top: 10px;
+    background-color: blue;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-left: 350px;
+}
+  
+.cancel-button {
+    margin-top: 10px;
+    background-color: rgb(196, 23, 23);
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-right: auto; 
+}
+
+/* ----------------------------------------------- */
+
+.declaration-info{
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+
+.declaration-table-title{
+    background-color: rgb(143, 215, 218);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.declaration-table-title > span{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.declaration-table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+  
+.declaration-table-container th, .declaration-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; 
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.declaration-table-container th {
+    background-color: #f2f2f2;
+}
+  
+
+.certificates-table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.certificates-table-container tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* ------------------------------------------------------------ */
+.dec-buttons{
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    margin-right: 60px;
+    
+}
+
+.dec-exit-button{
+    padding: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.dec-save-button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dec-save-button[disabled]{
+    cursor: not-allowed;
+}
+
+.green-button {
+    background-color: rgb(50, 167, 50);
+}
+
+.dectemp-container-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; 
+}
+  
+.dectemp-content-box {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dectemp-button {
+    margin-top: 10px;
+    background-color: blue;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-left: 450px; 
+}
+  
+.dectemp-cancel-button {
+    margin-top: 10px;
+    background-color: rgb(196, 23, 23);
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-right: auto; 
+}
+
+/* ---------------------------------------- */
+.popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
+  .popup {
+    margin: 20px;
+  }
+  
+  .popup h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .popup p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .popup button {
+    background-color: #e95f5f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 480px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

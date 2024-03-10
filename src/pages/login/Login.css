@@ -1,0 +1,123 @@
+/*--------- Breadcrumbs ------- */
+
+.breadcrumbs {
+    padding: 15px 0;
+    background: #ffffff;
+    min-height: 20px;
+}
+
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    font-size: 20px;
+}
+
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #3c3c3c;
+    content: "/";
+}
+
+/*--------- MAIN ------- */
+
+.login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+}
+.login h2{
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.login-container{
+    color: rgb(30, 30, 30);
+    width: 550px;
+    height: 300px;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+    padding-bottom: 30px;
+    flex-direction: column; 
+    align-items: center;
+    
+}
+.login-container button{
+    background-color: blue;
+    border: none;
+    padding: 8px;
+    position: absolute;
+    right: 40px;
+    top: 130px;
+    color: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-top: 130px;
+    cursor: pointer;
+}
+.login-row{
+    text-align: center;
+    padding: 3px;
+}
+.login-row input{
+    color: rgb(30, 30, 30);
+    background-color: rgb(240, 248, 255, 0);
+    border: 1px solid rgb(30, 30, 30);
+    outline: none;
+}
+
+.login-form{
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.login-container p {
+    text-align: center;
+}
+
+.icon-label-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+.login-container a.create-user-link {
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+    color: blue;
+    text-decoration: none;
+}
+
+.login-container a.create-user-link:hover {
+    text-decoration: underline;
+  }
+
+.login-container a.forgot-user-link{
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+    color: blue;
+    text-decoration: none;
+    bottom: 10px;
+}  
+
+.login-container a.forgot-user-link:hover {
+    text-decoration: underline;
+}

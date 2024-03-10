@@ -1,0 +1,87 @@
+/*--------- Breadcrumbs ------- */
+.breadcrumbs {
+    padding: 15px 0;
+    background: #ffffff;
+    min-height: 20px;
+}
+
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    font-size: 20px;
+}
+
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #3c3c3c;
+    content: "/";
+}
+
+
+/*--------- MAIN ------- */
+
+.grades-table-title{
+    background-color: rgb(143, 215, 218);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.grades-table-title > span{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.grades-table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+  
+.grades-table-container th, .grades-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.grades-table-container th {
+    background-color: #f2f2f2;
+}
+  
+
+.grades-table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.grades-table-container tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.grades-export-button{
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid rgb(143, 215, 218);
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    margin-right: 50px;
+    height: 50%;
+}
+.grades-info{
+    display: flex;
+    justify-content: space-between;
+}
+/* ------------------------------------------------------------ */

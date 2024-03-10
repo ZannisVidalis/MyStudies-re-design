@@ -1,0 +1,250 @@
+/*--------- Breadcrumbs ------- */
+
+.breadcrumbs {
+    padding: 15px 0;
+    background: #ffffff;
+    min-height: 20px;
+}
+  
+  
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    font-size: 20px;
+}
+  
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+  
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #3c3c3c;
+    content: "/";
+}
+  
+
+
+/*--------- MAIN ------- */
+
+.about-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-start > img {
+    width: 200px;
+    height: auto; 
+}
+
+.about-start > h1 {
+    font-size: 25px;
+    font-weight: semibold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* student */
+
+.about-student {
+    display: flex;
+    margin: 0 100px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+}
+
+.about-student-container {
+    flex: 1;
+}
+  
+.about-student-container > h3 {
+    font-size: 20px; 
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.about-student-container > li {
+    font-size: 16px;
+    list-style-position: outside;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.about-student > img {
+    width: 200px;
+    height: auto;
+}
+
+
+.small-images-container-student {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.small-image-student-1 {
+    top: 80px;
+    left: 40px;
+    transform: translateX(-90%);
+    width: 200px;
+    height: auto;
+    position: absolute;
+}
+
+.small-image-student-2 {
+    bottom: 50px;
+    transform: translateX(-350%);
+    width: 70px;
+    height: auto;
+    position: absolute;
+}
+
+.small-image-student-3 {
+    right: 0;
+    transform: translateY(-270%);
+    width: 50px;
+    height: auto;
+    position: absolute;
+}
+
+/* professor */
+
+.about-professor {
+    display: flex;
+    margin: 0 100px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about-professor-container {
+    flex: 1;
+}
+  
+.about-professor-container > h3 {
+    font-size: 20px; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.about-professor-container > li {
+    font-size: 16px;
+    list-style-position: outside;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.about-professor > img {
+    width: 200px;
+    height: auto;
+}
+
+
+.small-images-container-professor {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 500px;
+}
+
+.small-image-professor-1 {
+    top: 110px;
+    left: 20px;
+    transform: translateX(-60%);
+    width: 200px;
+    height: auto;
+    position: absolute;
+}
+
+.small-image-professor-2 {
+    bottom: 100px;
+    transform: translateX(-350%);
+    width: 70px;
+    height: auto;
+    position: absolute;
+}
+
+.small-image-professor-3 {
+    right: 5px;
+    transform: translateY(-270%);
+    width: 50px;
+    height: auto;
+    position: absolute;
+}
+
+/* secretary */
+
+.about-secretary {
+    display: flex;
+    margin: 0 100px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.about-secretary-container {
+    flex: 1;
+}
+  
+.about-secretary-container > h3 {
+    font-size: 20px; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.about-secretary-container > li {
+    font-size: 16px;
+    list-style-position: outside;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.about-secretary > img {
+    width: 300px;
+    height: auto;
+}
+
+
+.small-images-container-secretary {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.small-image-secretary-1 {
+    top: 80px;
+    left: 40px;
+    transform: translateX(-90%);
+    width: 200px;
+    height: auto;
+    position: absolute;
+}
+
+.small-image-secretary-2 {
+    bottom: 60px;
+    transform: translateX(-390%);
+    width: 70px;
+    height: auto;
+    position: absolute;
+}
+
+.small-image-secretary-3 {
+    right: 30px;
+    transform: translateY(-260%);
+    width: 50px;
+    height: auto;
+    position: absolute;
+}

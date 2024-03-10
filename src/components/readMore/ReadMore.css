@@ -1,0 +1,13 @@
+.text {
+    margin-bottom: 0;
+}
+  
+.read-or-hide {
+    cursor: pointer;
+    font-weight: bold;
+}
+  
+.read-or-hide:hover {
+    text-decoration: underline;
+}
+  

@@ -1,0 +1,11 @@
+.navbar-brand a {
+    display: flex;
+    align-items: center; 
+    text-decoration: none; 
+    cursor: pointer;
+    color: black;
+}
+
+.navbar-brand img {
+    margin-right: 10px; 
+}

@@ -1,0 +1,53 @@
+.faq-container-professor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 70px;
+}
+
+.faq-container-professor > h1 {
+    font-size: 30px;
+    margin: 32px 0;
+    font-family: 'Bebas Neue', sans-serif;
+    transform: scaleY(1.8);
+}
+
+.faq-main-professor {
+    width: 50%;
+    padding: 5px;
+}
+
+.faq-question-professor {
+    background-color: rgb(217,217,217);
+    border-radius: 8px; 
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+}
+
+.faq-question-professor > h3 {
+    margin: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.faq-answer-professor {
+    overflow: hidden;
+    width: 100%;
+}
+
+.faq-answer-professor > p {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.faq-answer-open-professor {
+    max-height: 100%;
+    overflow: visible;
+}
+
+.faq-answer-closed-professor {
+    max-height: 0;
+    overflow: hidden;
+}

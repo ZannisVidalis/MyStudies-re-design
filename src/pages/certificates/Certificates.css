@@ -1,0 +1,141 @@
+/*--------- Breadcrumbs ------- */
+.breadcrumbs {
+    padding: 15px 0;
+    background: #ffffff;
+    min-height: 20px;
+}
+
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    font-size: 20px;
+}
+
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: #3c3c3c;
+    content: "/";
+}
+
+
+/*--------- MAIN ------- */
+
+.container-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; 
+}
+  
+.content-box {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+    margin-top: 10px;
+    background-color: blue;
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-left: 450px; 
+}
+  
+.cancel-button {
+    margin-top: 10px;
+    background-color: rgb(196, 23, 23);
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    margin-right: auto; 
+}
+
+
+.certbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.certifivates-info{
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+
+.certificates-table-title{
+    background-color: rgb(143, 215, 218);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.certificates-table-title > span{
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.certificates-table-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+  
+.certificates-table-container th, .certificates-table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+  
+.certificates-table-container th {
+    background-color: #f2f2f2;
+}
+  
+
+.certificates-table-container tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.certificates-table-container tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* ------------------------------------------------------------ */
+
+.cert-export-button{
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid rgb(143, 215, 218);
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+}

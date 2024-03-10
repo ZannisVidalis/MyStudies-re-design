@@ -1,0 +1,49 @@
+.lang-dropdown-main {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    gap: 5px;
+}
+
+.lang-dropdown-sub-main {
+    min-width: 80px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+}
+
+.lang-dropdown-sub-main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(143, 215, 218);
+  }
+
+.lang-dropdown-sub-button {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    border: none;
+    background-color: #fff; 
+    cursor: pointer;
+    text-align: center;
+
+    width: 100%;
+    border-bottom: 1px solid rgb(218, 219, 219);
+}
+  
+
+.lang-dropdown-sub-button:hover {
+    background-color: #f1f1f1;
+    text-decoration: underline;
+    color: rgb(108, 179, 182);
+    font-weight: bold;
+}
