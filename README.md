@@ -3,6 +3,12 @@ The implementation of redesign of the University of Athens website in order to b
 
 The implementation of redesign the MyStudies.uoa.gr page of the University of Athens website, in order to better serve the needs of the students and faculty, as a project in "Human-Computer Interaction" course. Within the Mystudies webpage, the students can view the Curriculum of their Department, register for courses, see their grades and apply for certificates. <br/><br/>Here are some before and after screenshots of the page: <br/>
 
+<br/> <br/>
+The implementation of redesign the MyStudies.uoa.gr page of the University of Athens website in order to better serve the needs of students and faculty, as a project in "Human-Computer Interaction" course.
+Within the Mystudies webpage, the students can view the Curriculum of their Department, register for courses, see their grades and apply for certificates. The evaluation of the previous website has taken place, and the new one was created, taking into account Nielsen's 10 usability principles.
+
+The implementation and the results are explained on this pdf. [ReadMe.pdf](https://github.com/Vicky-Christofilopoulou/MyStudies-re-design/files/14550704/ReadMe.pdf)
+
 
 ## Contributors of the project :
 * [Zannis Vidalis](https://github.com/ZannisVidalis)
